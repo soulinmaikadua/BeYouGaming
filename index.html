@@ -32,7 +32,7 @@
 </head>
 
 <body>
-    <nav class="bg-white-800">
+    <nav class="bg-white sticky top-0 z-50">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-between">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -62,13 +62,13 @@
                 <div
                     class="hidden sm:block absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                     <div class="flex space-x-4">
-                        <a href="#"
-                            class="text-black-300 hover:bg-gray-100  px-10 py-4 rounded-md text-sm font-medium">HOME</a>
-                        <a href="#"
+                        <a href="#home"
+                            class="text-black-300 hover:bg-gray-100  px-10 py-4 rounded-md text-sm font-medium ">HOME</a>
+                        <a href="#about"
                             class="text-black-300 hover:bg-gray-100  px-10 py-4 rounded-md text-sm font-medium">ABOUT</a>
-                        <a href="#"
+                        <a href="#games"
                             class="text-black-300 hover:bg-gray-100  px-10 py-4 rounded-md text-sm font-medium">GAMES</a>
-                        <a href="#"
+                        <a href="#contact"
                             class="text-black-300 hover:bg-gray-100  px-10 py-4 rounded-md text-sm font-medium">CONTACT</a>
                     </div>
                 </div>
@@ -89,6 +89,116 @@
             </div>
         </div>
     </nav>
+
+    <main class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <!-- home -->
+        <div id="home" class="grid h-screen place-items-center">
+            <div class="grid justify-items-center">
+                <h1>GAMES FOR CHALLENGE AND FUN.</h1>
+                <div class="text-5xl mt-2 font-extrabold">
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+                        BE YOU GAMING
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+        <div id="about" class="container">
+            <div class="grid justify-items-center">
+                <h1 class="text-2xl">ABOUT BE YOU GAMING</h1>
+                <div class="grid mt-10 grid-cols-3">
+                    <div>
+                        <p>
+                            <span style="font-size: 40px; font-weight: bold">Don't</span> stop
+                            when you're <span style="font-weight: bold">tired</span>.
+                        </p>
+                        <p>
+                            Stop when you're
+                            <span style="font-size: 40px; font-weight: bold">done</span>
+                        </p>
+                        <p class="text-center">- Unknown</p>
+                    </div>
+                    <div>
+                        <p>We embarked this journey 5 years ago with the motto of making fun games for people. After
+                            exploring many projects over
+                            the years, children and word games have become the core focus of our game lab. Today, FunLab
+                            is one of the most
+                            well-known gaming studios within Turkey and it is the creator of famous word game 'Kelime
+                            Gezmece' which ranked #1 in
+                            stores for weeks.</p>
+                    </div>
+                    <div>
+                        <p>In Funlab Mobile, We believe success lies on working hard and keep trying. While you are
+                            reading this, we will be
+                            working on some new projects that will make the gaming world a better place. Keep following
+                            us!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- about -->
+        <div id="games" class="container mt-10">
+            <div class="grid justify-items-center">
+                <h1 class="text-2xl">OUR GAMING</h1>
+                <p class="mt-10">Be You Gaming games were downloaded millions of times by players all over the world and
+                    we are happy
+                    to reach thousands
+                    of people each day. As being one of the top mobile game developers we are always trying to achive
+                    the best. Discover
+                    some of the games from our portfolio.</p>
+                <div class="grid mt-10 grid-cols-3">
+                    <div>
+                        <h1>Hello World</h1>
+                    </div>
+                    <div>
+                        <h1>Hello World</h1>
+                    </div>
+                    <div>
+                        <h1>Hello World</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <div id="contact" class="container mt-10">
+            <div class="grid justify-items-center">
+                <h1 class="text-2xl">CONTACT US</h1>
+                <div>
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                        Name
+                    </label>
+                    <input class="appearance-none border rounded py-3 px-5 text-gray-700 " id="name" type="text"
+                        placeholder="Name">
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input class="appearance-none border rounded py-3 px-5 text-gray-700 " id="email" type="email"
+                        placeholder="Email">
+                </div>
+                <div>
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                        Message
+                    </label>
+                    <textarea id="message"></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="grid justify-items-center">
+            <div class="my-5">
+                <img src="assets/logo.png" style="width: 50px" />
+            </div>
+            <div class="my-2">
+                <a href="/policy.html">Terms & Policy</a>
+            </div>
+            <h3>BE YOU GAMING</h3>
+            <p>Play for challenge, challenge you to play</p>
+            <p>Made with </p>
+        </div>
+    </main>
 
 </body>
 

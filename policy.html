@@ -5,10 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Be You Gaming</title>
+    <title>BE YOU GAMING</title>
+    <link rel="icon" type="image/x-png" href="assets/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+        const openMenu = () => {
+            document.getElementById('mobile-menu').style.display = 'block'
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+              .content-auto {
+                content-visibility: auto;
+              }
+            }
+    </style>
 </head>
 
-<body style="margin: 10px 50px;">
+<body>
+    <nav class="bg-white-800">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="relative flex h-16 items-center justify-between">
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex flex-shrink-0 items-center">
+                        <a href="index.html">
+                            <img class="block h-8 w-auto lg:hidden" src="assets/logo.png" alt="Be You Gaming ">
+                        </a>
+                        <a href="index.html">
+                            <img class="hidden h-8 w-auto lg:block" src="assets/logo.png" alt="Be You Gaming">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
     <h1>BE YOU GAMING</h1>
     <h2>PRIVACY POLICY</h2>
     <div style="margin: 10px 100px;">
